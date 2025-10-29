@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/student_feedback_app/static/css/main.ce40ce7c.css",
+    "main.js": "/student_feedback_app/static/js/main.9543c1c3.js",
+    "index.html": "/student_feedback_app/index.html",
+    "main.ce40ce7c.css.map": "/student_feedback_app/static/css/main.ce40ce7c.css.map",
+    "main.9543c1c3.js.map": "/student_feedback_app/static/js/main.9543c1c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce40ce7c.css",
+    "static/js/main.9543c1c3.js"
+  ]
+}
