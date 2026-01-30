@@ -11,11 +11,17 @@ const {
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Middleware
-app.use(cors());
+// Middleware - UPDATED FOR DEPLOYMENT
+app.use(cors({
+  origin: [
+    'http://localhost:3000',
+    'https://github.com/LeutaMatete/student_feedback_app.git'
+  ],
+  credentials: true
+}));
 app.use(express.json());
 
-// Initialize database on startup
+
 initializeDB().then(() => {
   console.log('Database initialized successfully');
 });
